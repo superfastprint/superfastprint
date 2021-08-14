@@ -1,0 +1,40 @@
+body{
+	font-family: arial, helvetica;
+	background: url("Fondo.jpg");
+        background-size: 100%;
+}
+
+.menu{
+	list-style: none;
+	padding: 0;
+	
+	width: 90%;
+	max-width: 700px;
+        margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+.container 
+{
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     height: 100vh;
+                     text-align: center;
+
+                   }
+          
